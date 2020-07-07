@@ -7,12 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod"
-  },
-  "engines": {
-    "node": "10.13.0",
-    "npm": "6.4.1"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -29,7 +24,6 @@
     "express": "^4.17.1",
     "path": "^0.12.7",
     "rxjs": "~6.3.3",
-    "typescript": "~3.1.1",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
